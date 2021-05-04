@@ -17,13 +17,12 @@ body {
 .container {
 	position: absolute;
 	margin: 20px;
-	width: auto;
+	width: 100%;
 }
 
 .responsive img {
 	height: auto;
-	max-width: 100%;
-	display: block;
+	width: 100%;
 }
 
 .logo {
@@ -80,31 +79,11 @@ nav {
 	}
 }
 
-.contenido1 {
-	width: auto;
-	margin: auto;
-	margin-top: 10em;
-}
-.contenido1 .izquierda {
-	width: 512px;
-	display: inline-block;
-	vertical-align: super;
-	position: relative;
-	bottom: 10em;
-}
-.contenido1 .derecha {
-	display: inline-block;
-}
-.derecha img {
-	flex-direction: row-reverse;
-}
-.izquierda h2 {
-	position: absolute;
-	top: 30%;
-	left: 20%;
-	margin: 20px;
-	transform: translate(-50%, -50%);
-	color: white;
-	font-size: 40px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+/**ICONOS FOR THREE BOXES**/
+
+/** HR **/
+hr {
+	border: 1px solid#e12545;
+	height: 2px;
+	width: 100%;
 }
