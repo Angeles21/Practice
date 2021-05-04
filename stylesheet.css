@@ -1,0 +1,110 @@
+* {
+	margin: 0% 0% 0% 0%;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+		Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	color: rgb(58, 57, 61);
+	background-color: rgb(241, 241, 236);
+}
+
+/**THIS IS THE MAIN IMAGE**/
+
+.container {
+	position: absolute;
+	margin: 20px;
+	width: auto;
+}
+
+.responsive img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+}
+
+.logo {
+	float: left;
+}
+
+/** THIS IS THE NAVEGATION SYSTEM **/
+nav {
+	display: block;
+	position: relative;
+}
+.menu {
+	text-align: right;
+	margin: 0;
+	position: absolute;
+	right: 5em;
+	justify-content: flex-end ;
+	margin-top: 5px;
+}
+.menu li {
+	display: inline-block;
+	margin-right: 20px;
+}
+.menu .button {
+	background-color: rgba(235, 60, 188, 0.37);
+	border-radius: 30px;
+	padding: 10px;
+	width: 120px;
+	text-align: center;
+	transition-duration: 0.4s;
+	border: none;
+}
+.menu a {
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+}
+.button:hover {
+	background-color: rgb(218, 215, 215);
+}
+
+/** THESE ARE THE TEXTS OVER THE BG + 3 BOXES OF CONTENT **/
+@media screen and (min-width: 80px) {
+    div.izquierda {
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 4000px) {
+    div.izquierda {
+      font-size: 10px;
+      margin-left: 15vh;
+      margin-top: 20vh;
+    }
+  }
+
+.contenido1 {
+	width: auto;
+	margin: auto;
+	margin-top: 10em;
+}
+.contenido1 .izquierda {
+	width: 512px;
+	display: inline-block;
+	vertical-align: super;
+	position: relative;
+	bottom: 10em;
+}
+.contenido1 .derecha {
+	display: inline-block;
+}
+.derecha img{
+	flex-direction: row-reverse;
+}
+.izquierda h2 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    margin: 20px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+}
