@@ -40,7 +40,7 @@ nav {
 	margin: 0;
 	position: absolute;
 	right: 5em;
-	justify-content: flex-end ;
+	justify-content: flex-end;
 	margin-top: 5px;
 }
 .menu li {
@@ -67,18 +67,18 @@ nav {
 
 /** THESE ARE THE TEXTS OVER THE BG + 3 BOXES OF CONTENT **/
 @media screen and (min-width: 80px) {
-    div.izquierda {
-      font-size: 30px;
-    }
-  }
-  
-  @media screen and (max-width: 4000px) {
-    div.izquierda {
-      font-size: 10px;
-      margin-left: 15vh;
-      margin-top: 20vh;
-    }
-  }
+	div.izquierda {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 4000px) {
+	div.izquierda {
+		font-size: 10px;
+		margin-left: 15vh;
+		margin-top: 20vh;
+	}
+}
 
 .contenido1 {
 	width: auto;
@@ -95,16 +95,16 @@ nav {
 .contenido1 .derecha {
 	display: inline-block;
 }
-.derecha img{
+.derecha img {
 	flex-direction: row-reverse;
 }
 .izquierda h2 {
-    position: absolute;
-    top: 30%;
-    left: 20%;
-    margin: 20px;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	margin: 20px;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 40px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
