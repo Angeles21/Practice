@@ -31,6 +31,16 @@ body {
 	margin: 50px;
 }
 
+/** THIS IS THE TEXT + BG BELOW **/
+
+.bgtxt .text {
+	justify-content: flex-start;
+	margin: 15vh;
+	height: 50vh;
+}
+.text {
+}
+
 /** THIS IS THE NAVEGATION SYSTEM **/
 
 .mainmenu {
@@ -171,7 +181,7 @@ body {
 	font-size: 5vh;
 	padding-left: 90px;
 	margin-bottom: 80px;
-	margin: 40px;
+	margin: 7vh;
 }
 
 .container-3 {
@@ -218,6 +228,7 @@ body {
 .pricing {
 	position: relative;
 	text-align: center;
+	margin: 10vh;
 }
 .container-4 {
 	margin: 40px;
