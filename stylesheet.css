@@ -8,8 +8,8 @@ html,
 body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
 		Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-	color: rgb(241, 241, 236);
-	background-color: rgb(44, 43, 45);
+	color: rgb(211, 211, 211);
+	background-color: #1a1a1d;
 }
 
 /**THIS IS THE MAIN IMAGE**/
@@ -48,7 +48,7 @@ nav {
 	margin-right: 20px;
 }
 .menu .button {
-	background-color: rgba(235, 60, 188, 0.37);
+	background-color: #675682;
 	border-radius: 30px;
 	padding: 10px;
 	width: 120px;
@@ -80,9 +80,65 @@ nav {
 		margin-top: 20vh;
 	}
 }
+
+/** THIS IS THE PRICING **/
+.pricing {
+	position: relative;
+	text-align: center;
+}
+.container-4 {
+	margin: 40px;
+	padding: 1em;
+	display: flex;
+}
+.container-4 .left-3 {
+	display: inline-block;
+	padding: 1em;
+	text-align: center;
+	background-color: rgba(78, 44, 78, 0.794);
+	border-radius: 1em;
+}
+.container-4 .center-3 {
+	display: inline-block;
+	padding: 1em;
+	text-align: center;
+	background-color: #6b258486;
+	border-radius: 1em;
+	z-index: 40;
+	-webkit-box-shadow: 5px 5px 15px 5px #000000;
+	box-shadow: 5px 5px 15px 5px #5a3c55;
+}
+.container-4 .right-3 {
+	display: inline-block;
+	padding: 1em;
+	text-align: center;
+	background-color: rgba(78, 44, 78, 0.794);
+	border-radius: 1em;
+}
+
+.pribtn {
+	background-color: #f22465;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	margin: 20px;
+	text-align: center;
+	border-radius: 10px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+		Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.pribtn:hover {
+	background-color: rgb(228, 228, 228);
+	color: #5c4e73;
+}
+
 /** THIS IS THE ABSTRACT **/
 .abstract {
-	background-color: rgb(57, 47, 57);
+	background-color: #3b2f3e;
 	margin: 50px;
 	padding: 1em;
 	text-align: center;
@@ -91,7 +147,7 @@ nav {
 }
 
 .absbtn {
-	background: rgb(43, 42, 43);
+	background: #d0316b;
 	width: 175px;
 	height: 65px;
 	margin: 20px auto;
@@ -104,7 +160,8 @@ nav {
 		Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .absbtn:hover {
-	background-color: rgb(86, 58, 79);
+	background-color: rgb(228, 228, 228);
+	color: #5c4e73;
 }
 
 /**ICONOS FOR THREE BOXES**/
