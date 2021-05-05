@@ -80,6 +80,49 @@ nav {
 		margin-top: 20vh;
 	}
 }
+/** THIS ARE THE MAIN THREE BOXES **/
+
+.containter-2 {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 60px;
+}
+.containter-2 img {
+	margin: 20px;
+}
+.containter-2 .left {
+	width: 30%;
+	display: inline-block;
+	padding: 1em;
+	text-align: center;
+	background-color: rgb(242, 35, 100);
+	margin: 1em;
+	border-radius: 2em;
+}
+.containter-2 .center {
+	width: 30%;
+	display: inline-block;
+	padding: 1em;
+	padding-bottom: 3em;
+	text-align: center;
+	background-color: rgb(242, 35, 100);
+	margin: 1em;
+	border-radius: 2em;
+}
+.containter-2 .right {
+	width: 30%;
+	display: inline-block;
+	padding: 1em;
+	text-align: center;
+	background-color: rgb(242, 35, 100);
+	margin: 1em;
+	border-radius: 2em;
+}
+.icono {
+	width: 30px;
+}
+
 /** THIS IS TEXT + PICTURES TO THE SIDE**/
 .parent {
 	display: flex;
@@ -96,7 +139,8 @@ nav {
 
 .child img {
 	position: relative;
-	right: 50px;
+	right: 40px;
+	top: 55px;
 }
 
 .parent2 {
