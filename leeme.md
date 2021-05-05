@@ -1,1 +1,1 @@
-# Texto.
+# solo se creo para poder crear una rama master en el main
