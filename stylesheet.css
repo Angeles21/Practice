@@ -80,6 +80,16 @@ nav {
 		margin-top: 20vh;
 	}
 }
+/** THIS IS TEXT + PICTURES TO THE SIDE**/
+.parent {
+	display: flex;
+	margin: 2vh;
+}
+
+.child {
+	justify-content: flex-end;
+	margin: 10%;
+}
 
 /** THIS IS REVIEWS **/
 .review {
@@ -87,6 +97,7 @@ nav {
 	font-size: 4vh;
 	padding-left: 90px;
 	margin-bottom: 80px;
+	margin: 40px;
 }
 
 .container-3 {
