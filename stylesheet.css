@@ -83,7 +83,10 @@ nav {
 /** THIS IS TEXT + PICTURES TO THE SIDE**/
 .parent {
 	display: flex;
-	margin: 2vh;
+	margin-left: 2vh;
+	margin-right: 2vh;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
 }
 
 .child {
@@ -91,10 +94,31 @@ nav {
 	margin: 10%;
 }
 
+.child img {
+	position: relative;
+	right: 50px;
+}
+
+.parent2 {
+	display: flex;
+	margin-left: 2vh;
+	margin-right: 2vh;
+}
+
+.child2 {
+	margin: 10%;
+	position: relative;
+}
+.child2 img {
+	position: relative;
+	bottom: 60px;
+	left: 50px;
+}
+
 /** THIS IS REVIEWS **/
 .review {
 	position: relative;
-	font-size: 4vh;
+	font-size: 5vh;
 	padding-left: 90px;
 	margin-bottom: 80px;
 	margin: 40px;
@@ -182,7 +206,7 @@ nav {
 }
 
 .pribtn {
-	background-color: #f22465;
+	background-color: rgb(242, 35, 100);
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -212,7 +236,7 @@ nav {
 }
 
 .absbtn {
-	background: #d0316b;
+	background: rgb(242, 35, 100);
 	width: 175px;
 	height: 65px;
 	margin: 20px auto;
